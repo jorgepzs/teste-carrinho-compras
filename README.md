@@ -1,21 +1,37 @@
-## Atenção
-Nesta prova será necessário implementar os métodos das classes conforme descrições dos Javadocs correspondentes.
+# Teste carrinho De Compras
 
-Deverá ter interfaces REST para as seguintes funcionalidades:
+[x] Cadastro de Produtos
 
-    * Cadastro de produtos.
-    * Alteração de preços.
-    * Criação de carrinhos.
+[x] Alteração de Preços
 
-## Regras:
+[x] Criação de carrinhos
 
-* Você poderá criar novos atributos, classes, métodos e reorganizar os pacotes.
-* É proibido mudar a assinatura dos métodos e construtores já existentes, exceto o construtor da classe ShoppingCart.
-* Você tem liberdade de adicionar frameworks e bibliotecas.
-* Não será necessário implementar nenhum tipo de interface gráfica.
-* A prova deve ser resolvida utilizando obrigatoriamente Java (Versão 8 ou superior).
-* É opcional o uso de bancos de dados e ferramentas de persistência. 
-(Caso opte por utilizar, deverá encaminhar no readme as instruções de inicialização do projeto).
-* É opcional a implementação de cobertura de testes.
-* Sua prova precisa compilar via Maven, impreterivelmente.
-* A entrega do teste deverá ser por meio de um repositório público ou anexada ao email.
+# Introdução
+
+-Este é um projeto que tem como objetivo resolver um teste para uma vaga de desenvolvedor BackEnd junior
+
+# Tecnologias
+
+<ol>
+    <li>TypeScript<li>
+    <li>Node<li>
+    <li>PostegreSQL<li>
+    <li>TypeORM<li>
+<ol>
+
+# Primeiros passos
+
+<ol>
+  <li>Clone essse repositório <strong>git clone https://github.com/jorgepzs/teste-carrinho-compras.git</strong></li>
+  <li>Instale as dependências <strong>npm install</strong></li>
+  <li>Crie um arquivo .env **na raíz do projeto** contento as seguintes variaveis:
+    <li>DB_CONNECTION<li>
+    <li>DB_HOST<li>
+    <li>DB_USERNAME<li>
+    <li>DB_NAME<li>
+    <li>DB_PORT<li>  
+    <li>PORT<li>
+</strong></li>
+  <li>Rode o Projeto <strong>npm run start</strong></li>
+</ol>
+<li>OBS:Deve-se se ter uma conexão ativa do tipo PostgresSQL</li>
