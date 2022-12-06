@@ -36,5 +36,5 @@
 </li>
   <li>Rode o Projeto <strong>npm run start</strong></li>
 
-<li>OBS:Deve-se se ter uma conexão ativa do tipo PostgresSQL</li>
+<strong>OBS:Deve-se se ter uma conexão ativa do tipo PostgresSQL</strong>
 </ol>
