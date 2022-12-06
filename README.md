@@ -31,7 +31,7 @@
     <li>DB_USERNAME</li>
     <li>DB_NAME</li>
     <li>DB_PORT</li>  
-    <li>PORT</li>
+    <li>DB_PASSWORD</li>
   </ul>
 </li>
   <li>Rode o Projeto <strong>npm run start</strong></li>
