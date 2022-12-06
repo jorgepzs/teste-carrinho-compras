@@ -12,12 +12,12 @@
 
 # Tecnologias
 
-<ol>
+<ul>
     <li>TypeScript<li>
     <li>Node<li>
     <li>PostegreSQL<li>
     <li>TypeORM<li>
-<ol>
+<ul>
 
 # Primeiros passos
 
@@ -25,12 +25,14 @@
   <li>Clone essse repositório <strong>git clone https://github.com/jorgepzs/teste-carrinho-compras.git</strong></li>
   <li>Instale as dependências <strong>npm install</strong></li>
   <li>Crie um arquivo .env **na raíz do projeto** contento as seguintes variaveis:
+  <ul>
     <li>DB_CONNECTION<li>
     <li>DB_HOST<li>
     <li>DB_USERNAME<li>
     <li>DB_NAME<li>
     <li>DB_PORT<li>  
     <li>PORT<li>
+  <ul>
 </strong></li>
   <li>Rode o Projeto <strong>npm run start</strong></li>
 </ol>
