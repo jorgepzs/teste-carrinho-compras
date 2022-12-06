@@ -1,0 +1,32 @@
+{
+  "name": "teste-carrinho-compras",
+  "version": "1.0.0",
+  "description": "Nesta prova será necessário implementar os métodos das classes conforme descrições dos Javadocs correspondentes.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "migration:generate": "typeorm-ts-node-commonjs -d ./src/dataBase/data-source.ts migration:generate ./src/database/migrations/default",
+    "migration:run": "typeorm-ts-node-commonjs -d ./src/dataBase/data-source.ts migration:run",
+    "build": "tsc --build",
+    "start": "ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4",
+    "@types/bcryptjs": "^2.4.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
